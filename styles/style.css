@@ -2,4 +2,145 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-color: #000028;
+  background-image: url(../images/cover-image-dark.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  position: relative;
+  margin: 0;
+  padding-bottom: 66px;
+  margin-bottom: 40px;
+}
+
+.header::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-right: 1px solid #FF0070;
+  border-top: 1px solid #FF0070;
+  top: 10px;
+  right: 10px;
+}
+
+.header::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-left: 1px solid #FF0070;
+  border-bottom: 1px solid #FF0070;
+  bottom: 10px;
+  left: 10px;
+}
+
+.rec__container::before {
+  position: absolute;
+  content: "rec";
+  color: #FF0070;
+  font-family: 'IBM Plex Mono', sans-serif;
+  top: 10px;
+  right: 37px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.rec__container::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 9px;
+  height: 9px;
+  background-color: #FF0070;
+  box-shadow: 0 0 4px 2px #FF0070;
+  border-radius: 50%;
+}
+
+.header__theme-menu-list {
+  padding-top: 75px;
+  padding-right: 10px;
+  display: grid;
+  justify-items: right;
+  row-gap: 10px;
+}
+
+.header__theme-menu-item {
+  list-style: none;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border: 1px solid #FF0070;
+  padding: 1.5px 13px;
+  text-transform: lowercase;
+  font-family: 'IBM Plex Mono', sans-serif;
+  color: #FF0070;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  height: 26px;
+}
+
+.title {
+  font-family: 'IBM Plex Mono', sans-serif;
+  color: #DB00FF;
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 95.7px;
+  text-shadow: #FF0070 4px 4px;
+  margin-bottom: 55px;
+  margin-left: 10px;
+}
+
+.title-decor {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 700;
+  background-color: #FF0070;
+}
+
+.title-text {
+  margin: 0;
+  margin-left: 10px;
+  width: 355px;
+  height: 117px;
+}
+
+.section__header {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 700;
+  color: #FF0070;
+}
+
+.article__header {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 700;
+  color: #000028;
+}
+
+.article__body{
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 400;
+  color: #F1B2CE;
+}
+
+.article__link {
+  text-decoration: none;
+  border-bottom: 1px solid #F1B2CE;
+  color: #F1B2CE;
+  text-shadow: 2px 1px #FF0070;
 }
