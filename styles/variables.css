@@ -6,8 +6,11 @@
   --header-color: #DB00FF;
   --title-color: #FF0070;
   --accent-color: #FF0070;
+  --hover-color: rgba(255, 0, 112, .4);
   --link-shadow: #FF0070;
   --text-color: #000028;
-  --background-color: #000028;
+  --section-header-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: #000028;
+  --decor-visibility: visible;
 }
