@@ -8,6 +8,7 @@
   --header-color: #FFC2E6;
   --title-color: #FF8DCB;
   --accent-color: #353430;
+  --hover-color: rgba(50, 49, 45, .4);
   --link-shadow: #FF8DCB;
   --text-color: #353430;
   --section-header-color: #353430;
@@ -20,6 +21,7 @@
     --header-color: #FFC2E6;
     --title-color: #FF8DCB;
     --accent-color: #353430;
+    --hover-color: #32312D;
     --link-shadow: #FF8DCB;
     --text-color: #353430;
     --section-header-color: #353430;
